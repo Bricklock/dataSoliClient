@@ -6,15 +6,17 @@ void ofApp::setup(){
 	ofSetFrameRate(30);
 
 
-	//Setup Sender Objects
-	serverDestination = "localhost";
-	serverPort = 10000;
-	sender.setup(serverDestination, serverPort);
-	//sender.setup(clientDestination2, clientPort2);
-	//sender.setup(clientDestination3, clientPort3);
+	//Gui Setup
+	gui.setup("Data Collection for multi Soli experiment");
+	gui.setSize(ofGetWidth() / 2.5, 10);
 
-	//Setup Receiver Objects
-	receiver.setup(10001);
+	//Participant Id entry
+	gui.add(pidLabel.setup("ParticipantId:", ""));
+	//Repetitions for each gesture
+	gui.add(repetitionLabel.setup("Repetitions:", "0/0"));
+	//Display Current Gesture set and gesture
+	gui.add(gestureSetLabel.setup("Gesture Set:", ""));
+	gui.add(gestureLabel.setup("Gesture:", ""));
 }
 
 //--------------------------------------------------------------
@@ -24,7 +26,7 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+	gui.draw();
 }
 
 //--------------------------------------------------------------

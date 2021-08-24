@@ -1,15 +1,14 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: Two or more files with the name of NetworkingUtils.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\NetworkingUtils.cpp, ..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtils.cpp.
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: Two or more files with the name of UdpSocket.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\UdpSocket.cpp, ..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocket.cpp.
-obj\Debug\NetworkingUtils.obj : warning LNK4042: object specified more than once; extras ignored
-obj\Debug\UdpSocket.obj : warning LNK4042: object specified more than once; extras ignored
-     Creating library bin\dataClient_debug.lib and object bin\dataClient_debug.exp
-  dataClient.vcxproj -> B:\Documents\Projects\openFrameworks\apps\myApps\dataClient\bin\dataClient_debug.exe
+  main.cpp
+  ofApp.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+  dataClient.vcxproj -> B:\Documents\Projects\openFrameworks\apps\myApps\dataSoliClient\bin\dataClient_debug.exe
   
   	                   2	B:\Documents\Projects\openFrameworks\libs\fmod\lib\vs\Win32\
-  	    New File  		 1544704	B:\Documents\Projects\openFrameworks\libs\fmod\lib\vs\Win32\fmod.dll
-  	    New File  		 1733120	B:\Documents\Projects\openFrameworks\libs\fmod\lib\vs\Win32\fmodL.dll
+  	  *EXTRA File 		 6018560	B:\Documents\Projects\openFrameworks\apps\myApps\dataSoliClient\bin\FreeImage.dll
   
   	                   1	B:\Documents\Projects\openFrameworks\libs\FreeImage\lib\vs\Win32\
-  	  *EXTRA File 		 1544704	B:\Documents\Projects\openFrameworks\apps\myApps\dataClient\bin\fmod.dll
-  	  *EXTRA File 		 1733120	B:\Documents\Projects\openFrameworks\apps\myApps\dataClient\bin\fmodL.dll
-  	    New File  		 6018560	B:\Documents\Projects\openFrameworks\libs\FreeImage\lib\vs\Win32\FreeImage.dll
+  	  *EXTRA File 		 1544704	B:\Documents\Projects\openFrameworks\apps\myApps\dataSoliClient\bin\fmod.dll
+  	  *EXTRA File 		 1733120	B:\Documents\Projects\openFrameworks\apps\myApps\dataSoliClient\bin\fmodL.dll

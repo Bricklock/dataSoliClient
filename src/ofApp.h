@@ -2,7 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxOsc.h"
-
+#include "ofxGui.h"
 class ofApp : public ofBaseApp{
 
 	public:
@@ -22,5 +22,16 @@ class ofApp : public ofBaseApp{
 		//Receiver
 		ofxOscReceiver receiver;
 		int receivePort;
+
+		//GUI
+		ofxPanel gui;
+
+		ofxButton button;
+		ofxLabel pidLabel;
+		ofxLabel repetitionLabel;
+		ofxLabel gestureSetLabel;
+		ofxLabel gestureLabel;
+
+
 
 };
