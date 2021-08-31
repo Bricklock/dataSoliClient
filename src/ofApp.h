@@ -26,12 +26,16 @@ class ofApp : public ofBaseApp{
 		//GUI
 		ofxPanel gui;
 
-		ofxButton button;
+		ofxButton button1;
+		ofxButton button2;
+		ofxButton button3;
+
 		ofxLabel pidLabel;
 		ofxLabel repetitionLabel;
 		ofxLabel gestureSetLabel;
 		ofxLabel gestureLabel;
+		ofxLabel client;
 
-
-
+		string pid, start;
+		int clientID, currentRepetition, repetitions;
 };
